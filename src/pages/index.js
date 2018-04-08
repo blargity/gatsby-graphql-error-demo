@@ -14,7 +14,10 @@ export default IndexPage
 // Note, 'body' is not a field on allContentJson nodes. This is definitely
 // an error, but Gatsby reports this error as just:
 //
+// GraphQL Error There was an error while compiling your site's GraphQL queries.
+//   GraphQLParser
 //
+// Which could be improved.
 export const query = graphql`
   query IndexQuery {
     allContentJson {
